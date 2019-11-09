@@ -32,20 +32,20 @@ ul .social{
 ul li .fa-github-alt{
     color:white;
     background-color: #3f5995;
-    padding:7px 5px;
+    padding:10px 15px;
     border-radius: 50%
   }
   
   ul li .fa-linkedin-in{
     color:white;
     background-color: #177faf;
-    padding:7px 5px;
+    padding:10px 15px;
     border-radius: 50%
   }
   ul li .fa-twitter{
     color:white;
     background-color: #23aae9;
-    padding:7px 5px;
+    padding:10px 15px;
     border-radius: 50%
   }
   .github-footer{
