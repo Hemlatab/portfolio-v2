@@ -5,8 +5,9 @@ import ProjectImage from "../../images/project.jpg";
 
 
 const ProjectCard = props => {
+  
   return (
-
+   
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={props.imageSrc} />
       <Card.Body>
@@ -22,7 +23,7 @@ const ProjectCard = props => {
 const Portfolio = () => {
   return (
     <section className="wrapper">
-      <h1>Portfolio</h1>
+      <h1>My latest Projects</h1>
       <Container>
       <Row className="mx-auto"> 
       <Col>
