@@ -1,0 +1,55 @@
+
+.footer-container{
+    padding:20px;
+    background-color: #f7f7fe;
+}
+#footer{
+    text-align:center;
+    color:#E6E6DC;
+}
+.social-links{
+    display: flex;
+    padding: 0;
+    justify-content:center;
+  } 
+  .social-links li{
+    list-style-type: none;
+    margin: 0 10px;
+  }
+  i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  
+  }
+ul .social{
+    padding-left: 10px;
+}
+.icon-heart{
+    color:red;
+}
+ul li .fa-github-alt{
+    color:white;
+    background-color: #3f5995;
+    padding:7px 5px;
+    border-radius: 50%
+  }
+  
+  ul li .fa-linkedin-in{
+    color:white;
+    background-color: #177faf;
+    padding:7px 5px;
+    border-radius: 50%
+  }
+  ul li .fa-twitter{
+    color:white;
+    background-color: #23aae9;
+    padding:7px 5px;
+    border-radius: 50%
+  }
+  .github-footer{
+      text-decoration: none;
+      font-weight:bold;
+      color:red;
+  }
