@@ -5,9 +5,8 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <section className="wrapper">
-      <h1>Footer</h1>
-
       <div class="footer-container">
+        <h2>Follow me on : </h2>
         <ul class="social-links">
           <li>
             <a href="https://github.com/Hemlatab" target="_blank">

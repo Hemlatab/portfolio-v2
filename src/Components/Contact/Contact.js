@@ -4,7 +4,8 @@ import { Col, Row, Button, Form, FormGroup } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <section className="wrapper">
+    <section className="wrapper-contact">
+      <h1>Let's get in touch</h1>
       <Form>
         <Row form>
           <Col md={12}>
