@@ -2,6 +2,9 @@ import React from "react";
 import "./Portfolio.css";
 import { Card, Row, Col, Container } from "react-bootstrap";
 import ProjectImage from "../../images/project.jpg";
+import Vext from "../../images/Speech-to-text.png";
+import Initab from "../../images/Initab.png";
+import CityStage from "../../images/losangelesst.jpg";
 
 const ProjectCard = props => {
   return (
@@ -25,18 +28,18 @@ const Portfolio = () => {
         <Row className="mx-auto">
           <Col>
             <ProjectCard
-              imageSrc={ProjectImage}
+              imageSrc={Vext}
               title="Voice Recognition Tool"
-              text="Vext uses the Web Speech API, that transcribes your voice by just clicking on the 'Start Recording' button and it works on Chrome.."
+              text="Vext uses the Web Speech API, that transcribes your voice to start 'Start Recording' button and it works on Chrome."
               link=" http://chingu-v9-geckos-04.netlify.com"
             />
           </Col>
 
           <Col>
             <ProjectCard
-              imageSrc={ProjectImage}
+              imageSrc={Initab}
               title="Initab Clone"
-              text=" This is a mock Initab landing page as a solo Pre-Work project for Chingu's 9th Voyage. Technolgies used: HTML5, CSS3, JSON and JavaScript."
+              text="Initab landing page as a solo Pre-Work project for Chingu's 9th Voyage. Technolgies: HTML5, CSS3, JSON and JavaScript."
               link="https://hemlatab.github.io/-Landing-Page---Initab/"
             />
           </Col>
@@ -44,8 +47,8 @@ const Portfolio = () => {
           <Col>
             <ProjectCard
               imageSrc={ProjectImage}
-              title="project-title"
-              text="Some quick example text to build on the card title and make up the bulk of the card's content."
+              title="Digital Journal"
+              text=" Simple web application that allows users to register, login, and maintain personal notes."
               link="#"
             />
           </Col>
@@ -53,9 +56,27 @@ const Portfolio = () => {
           <Col>
             <ProjectCard
               imageSrc={ProjectImage}
-              title="project-title"
-              text="Some quick example text to build on the card title and make up the bulk of the card's content."
+              title="Fitness Tracker"
+              text="Simple Fitness Tracker application - provides diet plans and information based on survey filled by people."
               link="#"
+            />
+          </Col>
+
+          <Col>
+            <ProjectCard
+              imageSrc={ProjectImage}
+              title="Job Portal"
+              text="Simple web application to facilitate recruitment bringing employees and employer in one platform."
+              link="#"
+            />
+          </Col>
+
+          <Col>
+            <ProjectCard
+              imageSrc={CityStage}
+              title="City Stage"
+              text="City Stage is a simple web application to finding new uses for city street and creating spaces for communities."
+              link="https://hemlatab.github.io/City-Stage/"
             />
           </Col>
         </Row>
