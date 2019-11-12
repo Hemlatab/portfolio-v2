@@ -24,6 +24,7 @@ const Portfolio = () => {
   return (
     <section className="wrapper">
       <h1>My latest Projects</h1>
+      <h2>Take a look at some of my personal learning projects</h2>
       <Container>
         <Row className="mx-auto">
           <Col>

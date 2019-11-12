@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="wrapper-contact">
       <h1>Let's get in touch</h1>
-      <Form>
+      <Form className="contact-form">
         <Row form>
           <Col md={12}>
             <FormGroup>
@@ -31,15 +31,10 @@ const Contact = () => {
               />
             </FormGroup>
           </Col>
-          <Col md={12}>
+          <Col>
             <FormGroup>
-              <label for="message"> Message</label>
-              <input
-                type="textarea"
-                name="text"
-                id="message"
-                placeholder="Message"
-              />
+              <label for="Message">Message</label>
+              <input type="textarea" name="text" id="Message" rows="3" />
             </FormGroup>
           </Col>
         </Row>
