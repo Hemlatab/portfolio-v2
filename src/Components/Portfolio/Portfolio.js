@@ -9,12 +9,20 @@ import CityStage from "../../images/losangelesst.jpg";
 const ProjectCard = props => {
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={props.imageSrc} />
+      <Card.Img
+        variant="top"
+        src={props.imageSrc}
+        width="150px"
+        height="200px"
+      />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text className="text-left">{props.text}</Card.Text>
+        View Project on
         <a href={props.link} variant="primary">
-          Visit Live
+          <a href="https://github.com/Hemlatab" target="_blank">
+            <i class="fab fa-github-alt fa-fw"></i>
+          </a>
         </a>
       </Card.Body>
     </Card>
@@ -23,7 +31,7 @@ const ProjectCard = props => {
 const Portfolio = () => {
   return (
     <section className="wrapper">
-      <h1>My latest Projects</h1>
+      <h1 className="project-title">My latest Projects</h1>
       <h4>Take a look at some of my personal learning projects</h4>
       <Container className="py-5">
         <Row className="mx-auto">
