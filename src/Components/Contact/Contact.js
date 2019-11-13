@@ -5,16 +5,16 @@ import { Col, Row, Button, Form, FormGroup } from "react-bootstrap";
 const Contact = () => {
   return (
     <section className="wrapper-contact">
-      <h1>Let's get in touch</h1>
+      <h1 className="get-in-touch">Let's get in touch</h1>
       <Form className="contact-form">
         <Row form>
           <Col md={12}>
             <FormGroup>
-              <label for="Password"> Name</label>
+              <label for="Name"> Name</label>
               <input
-                type="password"
-                name="password"
-                id="Password"
+                type="text"
+                name="name"
+                id="name"
                 placeholder="Enter name"
               />
             </FormGroup>
