@@ -12,7 +12,7 @@ const ProjectCard = props => {
       <Card.Img variant="top" src={props.imageSrc} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text>{props.text}</Card.Text>
+        <Card.Text className="text-left">{props.text}</Card.Text>
         <a href={props.link} variant="primary">
           Visit Live
         </a>
@@ -24,8 +24,8 @@ const Portfolio = () => {
   return (
     <section className="wrapper">
       <h1>My latest Projects</h1>
-      <h2>Take a look at some of my personal learning projects</h2>
-      <Container>
+      <h4>Take a look at some of my personal learning projects</h4>
+      <Container className="py-5">
         <Row className="mx-auto">
           <Col>
             <ProjectCard
