@@ -1,14 +1,2 @@
-.wrapper{
-  min-height: 100vh;
-  text-align: center;
-  padding: 3rem 0;
-}
-.wrapper:nth-child(1){
-  background-color: antiquewhite;
-}
-.wrapper:nth-child(2){
-  background-color: red;
-}
-.wrapper:nth-child(3){
-  background-color: blue;
-}
+
+
