@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./Navbar.css";
 import { Navbar, Nav } from "react-bootstrap";
@@ -12,6 +13,9 @@ const MenuBar = () => {
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
+          <a href="https://github.com/Hemlatab" target="_blank">
+            <i class="fab fa-github-alt fa-fw"></i>
+          </a>
         </Nav>
       </Navbar>
     </>
