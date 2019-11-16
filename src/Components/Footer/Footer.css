@@ -1,21 +1,22 @@
-
-.footer-container{
-    padding:20px;
-    background-color: #f7f7fe;
-}
-#footer{
+.footer{
     text-align:center;
-    color:#E6E6DC;
 }
+
 .social-links{
     display: flex;
-    padding: 0;
     justify-content:center;
+    align-items: center;
   } 
+
   .social-links li{
+    display: flex;
+    justify-content:center;
+    align-items: center;
     list-style-type: none;
     margin: 0 10px;
+    border-radius: 50%;
   }
+
   i.fa {
     display: inline-block;
     border-radius: 60px;
@@ -53,3 +54,7 @@ ul li .fa-github-alt{
       font-weight:bold;
       color:red;
   }
+
+ .footer-content{
+   margin-top:50px;
+ }
