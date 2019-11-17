@@ -1,0 +1,16 @@
+.project-title{
+    margin-top:50px;
+    color:#ea6182;
+}
+
+.fa-fw-project{
+    display: flex;
+    justify-content: center;
+    color:#075588;
+    background-color:#ea6182;
+    width:30px;
+    padding:5px;
+    border-radius: 50%;
+    margin-bottom:1px;
+}
+

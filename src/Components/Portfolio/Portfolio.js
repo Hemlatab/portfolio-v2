@@ -1,10 +1,13 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./Portfolio.css";
 import { Card, Row, Col, Container } from "react-bootstrap";
-import ProjectImage from "../../images/project.jpg";
 import Vext from "../../images/Speech-to-text.png";
 import Initab from "../../images/Initab.png";
 import CityStage from "../../images/losangelesst.jpg";
+import Fitness from "../../images/fitness.jpg";
+import JobPortal from "../../images/job-portal.jpg";
+import Notes from "../../images/notes.png";
 
 const ProjectCard = props => {
   return (
@@ -21,7 +24,7 @@ const ProjectCard = props => {
         View Project on
         <a href={props.link} variant="primary">
           <a href="https://github.com/Hemlatab" target="_blank">
-            <i class="fab fa-github-alt fa-fw"></i>
+            <i className="fab fa-github-alt fa-fw-project"></i>
           </a>
         </a>
       </Card.Body>
@@ -39,7 +42,7 @@ const Portfolio = () => {
             <ProjectCard
               imageSrc={Vext}
               title="Voice Recognition Tool"
-              text="Vext uses the Web Speech API, that transcribes your voice to start 'Start Recording' button and it works on Chrome."
+              text="Vext uses the Web Speech API, that transcribes your voice and it works on Chrome."
               link=" http://chingu-v9-geckos-04.netlify.com"
             />
           </Col>
@@ -48,14 +51,14 @@ const Portfolio = () => {
             <ProjectCard
               imageSrc={Initab}
               title="Initab Clone"
-              text="Initab landing page as a solo Pre-Work project for Chingu's 9th Voyage. Technolgies: HTML5, CSS3, JSON and JavaScript."
+              text="Initab landing page as a solo Pre-Work project for Chingu's 9th Voyage."
               link="https://hemlatab.github.io/-Landing-Page---Initab/"
             />
           </Col>
 
           <Col>
             <ProjectCard
-              imageSrc={ProjectImage}
+              imageSrc={Notes}
               title="Digital Journal"
               text=" Simple web application that allows users to register, login, and maintain personal notes."
               link="#"
@@ -64,7 +67,7 @@ const Portfolio = () => {
 
           <Col>
             <ProjectCard
-              imageSrc={ProjectImage}
+              imageSrc={Fitness}
               title="Fitness Tracker"
               text="Simple Fitness Tracker application - provides diet plans and information based on survey filled by people."
               link="#"
@@ -73,7 +76,7 @@ const Portfolio = () => {
 
           <Col>
             <ProjectCard
-              imageSrc={ProjectImage}
+              imageSrc={JobPortal}
               title="Job Portal"
               text="Simple web application to facilitate recruitment bringing employees and employer in one platform."
               link="#"
