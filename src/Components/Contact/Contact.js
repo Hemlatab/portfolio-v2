@@ -1,46 +1,40 @@
 import React from "react";
 import "./Contact.css";
-import { Col, Row, Button, Form, FormGroup } from "react-bootstrap";
+import { Row, Col, Button, Form } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <section className="wrapper-contact">
+    <section className="wrapper-contact" id="contact">
       <h1 className="get-in-touch">Let's get in touch</h1>
-      <Form className="contact-form">
-        <Row form>
-          <Col md={12}>
-            <FormGroup>
-              <label for="Name"> Name</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Enter name"
-              />
-            </FormGroup>
-          </Col>
+      <Row>
+        <Col lg={6} className="mx-auto">
+          <Form className="contact-form">
+            <Form.Group controlId="Name">
+              <Form.Label>Name</Form.Label>
+              <Form.Control type="name" placeholder="Enter name" />
+            </Form.Group>
 
-          <Col md={12}>
-            <FormGroup>
-              <label for="Email"> Email</label>
-              <input
-                type="email"
-                name="message"
-                id="Email"
-                placeholder="Email"
-              />
-            </FormGroup>
-          </Col>
-          <Col>
-            <FormGroup>
-              <label for="Message">Message</label>
-              <input type="textarea" name="text" id="Message" rows="3" />
-            </FormGroup>
-          </Col>
-        </Row>
+            <Form.Group controlId="Email">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
+            </Form.Group>
 
-        <Button>Send</Button>
-      </Form>
+            <Form.Group controlId="textarea">
+              <Form.Label>Message</Form.Label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Enter message"
+              ></textarea>
+            </Form.Group>
+
+            <Button variant="primary" type="submit">
+              Send Message
+            </Button>
+          </Form>
+        </Col>
+      </Row>
     </section>
   );
 };

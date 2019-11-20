@@ -1,6 +1,5 @@
 .wrapper-contact{
     margin: 0 auto;
-    width: 800px;
     text-align: center;
     border-radius: 5px;
     background-color: #F7F7FF;
@@ -16,7 +15,12 @@
 .get-in-touch{
     margin-bottom: 40px;
 }
-input[type=password]{
-    width:100px;
-    padding:40px;
+
+.contact-form label{
+    text-align: left !important;
+    
+}
+
+.title{
+    color: #ea6182;
 }
