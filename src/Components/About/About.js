@@ -4,7 +4,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section className="wrapper">
+    <section className="wrapper" id="about">
       <h1>About me</h1>
       <p className="about-me">
         A self-taught, self-motivated, creative, and ambitious IT professional
@@ -22,7 +22,7 @@ const About = () => {
       <p className="about-me">
         You can view my code on GitHub
         <a href="https://github.com/Hemlatab" target="_blank">
-          <i class="fab fa-github-alt fa-fw"></i>
+          <i class="fab fa-github-alt fa-fw-about"></i>
         </a>
       </p>
     </section>
