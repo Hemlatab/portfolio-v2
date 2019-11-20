@@ -3,14 +3,15 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <section className="wrapper home">
-      <h1>
-        Hello,
-        <br />
-        I am Hemlata Bhundhoo.
-        <br />
-        Aspiring Frontend Developer
-      </h1>
+    <section className="wrapper-home" id="home">
+      <div className="home-content">
+        <h1 className="intro">
+          Hello,
+          <br />I am <span className="name">Hemlata Bhundhoo.</span>
+          <br />
+          Aspiring Frontend Developer
+        </h1>
+      </div>
     </section>
   );
 };
