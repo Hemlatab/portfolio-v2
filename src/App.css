@@ -1,2 +1,9 @@
 
 
+body{
+    scroll-behavior: smooth;
+}
+
+h1{
+    color:#ea6182;
+}
