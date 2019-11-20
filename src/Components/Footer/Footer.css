@@ -8,21 +8,24 @@
     align-items: center;
   } 
 
-  .social-links li{
+  .social-links li {
     display: flex;
     justify-content:center;
-    align-items: center;
+    /* align-items: center; */ 
     list-style-type: none;
     margin: 0 10px;
-    border-radius: 50%;
   }
 
-  i.fa {
-    display: inline-block;
-    border-radius: 60px;
+  .social-links i.fab {
+    display: flex;
     box-shadow: 0px 0px 2px #888;
-    padding: 0.5em 0.6em;
-  
+    color:#ffffff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    font-size: 1.2rem;
   }
 ul .social{
     padding-left: 10px;
@@ -31,28 +34,23 @@ ul .social{
     color:red;
 }
 ul li .fa-github-alt{
-    color:white;
     background-color: #3f5995;
-    padding:10px 15px;
-    border-radius: 50%
+   
+ 
   }
   
   ul li .fa-linkedin-in{
-    color:white;
-    background-color: #177faf;
-    padding:10px 15px;
-    border-radius: 50%
+    background-color: #177faf;   
   }
   ul li .fa-twitter{
-    color:white;
+   
     background-color: #23aae9;
-    padding:10px 15px;
-    border-radius: 50%
+
+   
   }
   .github-footer{
       text-decoration: none;
       font-weight:bold;
-      color:red;
   }
 
  .footer-content{

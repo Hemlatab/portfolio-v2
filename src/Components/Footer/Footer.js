@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="wrapper">
       <div className="footer">
-        <h2 className="footer-content">Join me here </h2>
+        <h2 className="title">Join me here </h2>
         <ul class="social-links">
           <li>
             <a href="https://github.com/Hemlatab" target="_blank">
