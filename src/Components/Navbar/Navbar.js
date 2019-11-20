@@ -2,6 +2,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Navbar, Nav } from "react-bootstrap";
+// import GitHub from "../../images/github.png";
 
 const MenuBar = () => {
   return (
@@ -14,7 +15,7 @@ const MenuBar = () => {
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
           <a href="https://github.com/Hemlatab" target="_blank">
-            <i class="fab fa-github-alt fa-fw"></i>
+            <i className="fab fa-github-alt fa-fw-nav ml-2"></i>
           </a>
         </Nav>
       </Navbar>
