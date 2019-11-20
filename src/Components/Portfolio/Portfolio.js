@@ -11,7 +11,7 @@ import Notes from "../../images/notes.png";
 
 const ProjectCard = props => {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className="my-3">
       <Card.Img
         variant="top"
         src={props.imageSrc}
@@ -21,11 +21,12 @@ const ProjectCard = props => {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text className="text-left">{props.text}</Card.Text>
-        View Project on
-        <a href={props.link} variant="primary">
-          <a href="https://github.com/Hemlatab" target="_blank">
-            <i className="fab fa-github-alt fa-fw-project"></i>
-          </a>
+
+        <a href={props.link} variant="primary" className="d-flex">
+          {/* <a href="https://github.com/Hemlatab" target="_blank"> */}
+          View Project on
+          <i className="fab fa-github-alt fa-fw-project ml-2"></i>
+          {/* </a> */}
         </a>
       </Card.Body>
     </Card>
@@ -33,12 +34,12 @@ const ProjectCard = props => {
 };
 const Portfolio = () => {
   return (
-    <section className="wrapper">
-      <h1 className="project-title">My latest Projects</h1>
+    <section className="wrapper" id="portfolio">
+      <h1 className="title">My latest Projects</h1>
       <h4>Take a look at some of my personal learning projects</h4>
       <Container className="py-5">
         <Row className="mx-auto">
-          <Col>
+          <Col lg={4}>
             <ProjectCard
               imageSrc={Vext}
               title="Voice Recognition Tool"
@@ -47,16 +48,16 @@ const Portfolio = () => {
             />
           </Col>
 
-          <Col>
+          <Col lg={4}>
             <ProjectCard
               imageSrc={Initab}
               title="Initab Clone"
-              text="Initab landing page as a solo Pre-Work project for Chingu's 9th Voyage."
+              text="Initab landing page as a solo Pre-Work project for Chingu's 9th Voyage. Technologies used: HTML, CSS, JSON"
               link="https://hemlatab.github.io/-Landing-Page---Initab/"
             />
           </Col>
 
-          <Col>
+          <Col lg={4}>
             <ProjectCard
               imageSrc={Notes}
               title="Digital Journal"
@@ -65,7 +66,7 @@ const Portfolio = () => {
             />
           </Col>
 
-          <Col>
+          <Col lg={4}>
             <ProjectCard
               imageSrc={Fitness}
               title="Fitness Tracker"
@@ -74,7 +75,7 @@ const Portfolio = () => {
             />
           </Col>
 
-          <Col>
+          <Col lg={4}>
             <ProjectCard
               imageSrc={JobPortal}
               title="Job Portal"
@@ -83,7 +84,7 @@ const Portfolio = () => {
             />
           </Col>
 
-          <Col>
+          <Col lg={4}>
             <ProjectCard
               imageSrc={CityStage}
               title="City Stage"
