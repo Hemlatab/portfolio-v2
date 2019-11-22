@@ -20,7 +20,7 @@ const About = () => {
         seeks to apply for the position Front End Developer.
       </p>
       <p className="about-me">
-        You can view my code on GitHub
+        <span className="view-github">You can view my code on GitHub </span>
         <a href="https://github.com/Hemlatab" target="_blank">
           <i class="fab fa-github-alt fa-fw-about"></i>
         </a>
