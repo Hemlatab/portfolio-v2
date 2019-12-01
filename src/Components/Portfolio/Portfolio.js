@@ -44,6 +44,7 @@ const Portfolio = () => {
               imageSrc={Vext}
               title="Voice Recognition Tool"
               text="Vext uses the Web Speech API, that transcribes your voice and it works on Chrome."
+              tags="React, CSS"
               link=" http://chingu-v9-geckos-04.netlify.com"
             />
           </Col>
@@ -53,6 +54,7 @@ const Portfolio = () => {
               imageSrc={Initab}
               title="Initab Clone"
               text="Initab landing page as a solo Pre-Work project for Chingu's 9th Voyage. Technologies used: HTML, CSS, JSON"
+              tags="JSON, HTML, CSS"
               link="https://hemlatab.github.io/-Landing-Page---Initab/"
             />
           </Col>
@@ -62,6 +64,7 @@ const Portfolio = () => {
               imageSrc={Notes}
               title="Digital Journal"
               text=" Simple web application that allows users to register, login, and maintain personal notes."
+              tags="React, CSS"
               link="#"
             />
           </Col>
@@ -71,6 +74,7 @@ const Portfolio = () => {
               imageSrc={Fitness}
               title="Fitness Tracker"
               text="Simple Fitness Tracker application - provides diet plans and information based on survey filled by people."
+              tags="PHP, Bootstrap, HTML, CSS"
               link="#"
             />
           </Col>
@@ -80,6 +84,7 @@ const Portfolio = () => {
               imageSrc={JobPortal}
               title="Job Portal"
               text="Simple web application to facilitate recruitment bringing employees and employer in one platform."
+              tags="PHP, HTML, CSS"
               link="#"
             />
           </Col>
@@ -89,6 +94,7 @@ const Portfolio = () => {
               imageSrc={CityStage}
               title="City Stage"
               text="City Stage is a simple web application to finding new uses for city street and creating spaces for communities."
+              tags="React, CSS"
               link="https://hemlatab.github.io/City-Stage/"
             />
           </Col>
