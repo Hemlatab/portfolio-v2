@@ -29,7 +29,11 @@ const Contact = () => {
               ></textarea>
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button
+              variant="primary"
+              type="submit"
+              className="send-btn-contact"
+            >
               Send Message
             </Button>
           </Form>
