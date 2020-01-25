@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-v2/static/css/main.434faa6c.chunk.css",
+    "main.js": "/portfolio-v2/static/js/main.25ee9bb3.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.25ee9bb3.chunk.js.map",
+    "runtime-main.js": "/portfolio-v2/static/js/runtime-main.f58e8236.js",
+    "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.f58e8236.js.map",
+    "static/js/2.2c25037e.chunk.js": "/portfolio-v2/static/js/2.2c25037e.chunk.js",
+    "static/js/2.2c25037e.chunk.js.map": "/portfolio-v2/static/js/2.2c25037e.chunk.js.map",
+    "index.html": "/portfolio-v2/index.html",
+    "precache-manifest.60408b3e80135522d75d88471de68a44.js": "/portfolio-v2/precache-manifest.60408b3e80135522d75d88471de68a44.js",
+    "service-worker.js": "/portfolio-v2/service-worker.js",
+    "static/css/main.434faa6c.chunk.css.map": "/portfolio-v2/static/css/main.434faa6c.chunk.css.map",
+    "static/media/Initab.png": "/portfolio-v2/static/media/Initab.266389f0.png",
+    "static/media/Speech-to-text.png": "/portfolio-v2/static/media/Speech-to-text.50900978.png",
+    "static/media/fitness.jpg": "/portfolio-v2/static/media/fitness.6553c33a.jpg",
+    "static/media/losangelesst.jpg": "/portfolio-v2/static/media/losangelesst.a3546cfc.jpg",
+    "static/media/notes.png": "/portfolio-v2/static/media/notes.3fe530c8.png",
+    "static/media/Home.css": "/portfolio-v2/static/media/software_engineer.e5e26347.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f58e8236.js",
+    "static/js/2.2c25037e.chunk.js",
+    "static/css/main.434faa6c.chunk.css",
+    "static/js/main.25ee9bb3.chunk.js"
+  ]
+}
