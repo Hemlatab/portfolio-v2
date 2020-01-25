@@ -2,6 +2,12 @@
 import React from "react";
 import "./Footer.css";
 
+class Date extends Date.Component {
+  componentDidMount() {
+    this.getDate();
+  }
+}
+
 const Footer = () => {
   return (
     <section className="wrapper">
@@ -37,7 +43,7 @@ const Footer = () => {
             Hemlata Bhundhoo
           </a>
         </p>
-        <p>Copyright &copy; 2019.</p>
+        <p>Copyright &copy; {this.state.date}</p>
       </div>
     </section>
   );
